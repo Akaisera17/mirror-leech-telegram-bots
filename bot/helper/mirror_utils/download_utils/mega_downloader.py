@@ -1,7 +1,7 @@
 from threading import Lock
 from pathlib import Path
 
-from bot import LOGGER, download_dict, download_dict_lock, STOP_DUPLICATE
+from bot import LOGGER, download_dict, download_dict_lock
 from bot.helper.telegram_helper.message_utils import sendMessage, sendMarkup, sendStatusMessage
 from bot.helper.ext_utils.bot_utils import setInterval
 from bot.helper.mirror_utils.upload_utils.gdriveTools import GoogleDriveHelper
